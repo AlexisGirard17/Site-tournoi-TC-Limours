@@ -1,0 +1,19 @@
+Pour la réalisation de ce site web, j'ai utilisé l'IA Gemini (Google).
+
+Utilisation :
+
+Génération de la structure HTML5 de base pour 5 pages.
+
+Création d'une feuille de style CSS responsive utilisant une palette de couleurs adaptée au tennis (Terre battue/Bleu).
+
+Rédaction des textes de remplissage (Lorem Ipsum contextuel) pour la présentation du TC Limours.
+
+Modifications manuelles apportées :
+
+J'ai personnalisé les noms et prénoms dans la partie "Présentation étudiant".
+
+J'ai modifié les dates du tournoi pour qu'elles correspondent au calendrier réel.
+
+J'ai ajusté la taille des images dans le CSS car elles étaient trop grandes.
+
+J'ai corrigé une erreur de lien dans le menu de navigation.

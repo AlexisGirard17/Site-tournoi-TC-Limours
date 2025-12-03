@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription - TC Limours</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulaire d'Inscription</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="evenement.html">L'Événement</a></li>
+                <li><a href="programme.html">Programme</a></li>
+                <li><a href="infos.html">Infos Pratiques</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Rejoignez le tournoi</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="classement">Classement FFT :</label>
+                <select id="classement" name="classement">
+                    <option value="nc">Non Classé</option>
+                    <option value="40">40</option>
+                    <option value="30">30</option>
+                    <option value="15">15/5 à 15/1</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <button type="submit">Valider l'inscription</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Projet M2 STAPS</p>
+    </footer>
+</body>
+</html>
